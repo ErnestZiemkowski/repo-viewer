@@ -30,7 +30,6 @@ const IndexPage: AppFunctionComponent<Props> = ({
 }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hello from App'n'roll</h1>
     <Content>
       <Image fluid={fluid} />
     </Content>
