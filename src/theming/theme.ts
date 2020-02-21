@@ -1,17 +1,18 @@
 const theme = {
   color: {
     text: {
-      primary: "#000000",
-    },
-    background: {
-      primary: "hotpink",
+      primary: "#243C56",
+      secondary: "#818FA3",
     },
   },
   layout: {
     width: "73.75rem",
   },
   breakpoint: {
-    tablet: 48,
+    largeDisplay: "1200px",
+    desktop: "980px",
+    tablet: "768px",
+    mobile: "480px",
   },
 }
 
