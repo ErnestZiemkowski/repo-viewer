@@ -10,11 +10,13 @@ import React, { ReactChild } from "react"
 import styled, { ThemeProvider } from "styled-components"
 import { Normalize } from "styled-normalize"
 import theme from "../theming/theme"
+import Helmet from "react-helmet"
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 0 1.0875rem 1.45rem;
+  font-family: Quicksand;
 `
 
 const Layout = ({ children }: { children: ReactChild | ReactChild[] }) => {
@@ -32,6 +34,12 @@ const Layout = ({ children }: { children: ReactChild | ReactChild[] }) => {
     <ThemeProvider theme={theme}>
       <>
         <Normalize />
+        <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap"
+            rel="stylesheet"
+          />
+        </Helmet>
         <ContentWrapper>
           <main>{children}</main>
         </ContentWrapper>
