@@ -4,6 +4,9 @@ const theme = {
       primary: "#243C56",
       secondary: "#818FA3",
     },
+    background: {
+      primary: "hotpink",
+    },
   },
   layout: {
     width: "73.75rem",

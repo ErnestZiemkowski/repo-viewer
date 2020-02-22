@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { backgroundColor } from "../../../theming/theme-getters"
 import AppFunctionComponent from "../../../types/app-function-component.interface"
+import { backgroundColor } from "../../../theming/theme-getters"
 
 const HeaderRoot = styled.header`
   background: ${backgroundColor("primary")};
